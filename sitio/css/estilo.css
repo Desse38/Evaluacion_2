@@ -1,0 +1,133 @@
+body{
+    background-color: #274001;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    
+}
+
+header {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color:#ff4a08 ;
+    background-color: #732f02;
+    padding: 5px;
+    border-style: solid;
+    border-width: 5px;
+    background-image: url('../imagenes/patasderana.png');
+    background-repeat: repeat-x;
+    background-size: 130px;
+    position: relative;
+}
+
+
+nav{
+    background-color: #274001;
+    overflow: hidden;
+}
+nav a{
+    display: block;
+    padding: 5px 100px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: #3B7302;
+    color: #Ffcba5;
+}
+
+main {
+    
+    background-color: #3B7302;
+    padding: 20px 300px 80px;
+    
+}
+footer{
+    text-align: center;
+    background-color: #283d0c;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+}
+.tabla {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  min-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tabla th {
+  background-color: #44700a;
+  color: black;
+  padding: 12px;
+  text-align: left;
+}
+.tabla td {
+  padding: 12px;
+  border-bottom: 1px solid #44700a;
+}
+.tabla tr:hover {
+  background-color: #283d0c;
+}
+
+.boton{
+    padding: 10px 20px;
+    background-color: #283d0c;
+    color: white;
+    border: #7dd426;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 300px;
+
+}
+  
+.boton:hover {
+    background-color:#182c03;
+}
+  
+.formulario{
+    background-image: url("../imagenes/ranapizarra.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+}
+
+
+.Galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+  
+.Galeria a {
+    text-decoration: none;
+}
+  
+.Galeria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.Galeria img:hover {
+    transform: scale(1.1);
+}
+  
+
+.links{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
